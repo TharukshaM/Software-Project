@@ -1,0 +1,209 @@
+
+tr{
+    text-align: center;
+    color: white;
+}
+td:last-child{
+    display: flex;
+}
+.shadow{
+    outline-width: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    width: min-content;
+    margin-left: 10%;
+    margin-top: 9vh;
+
+
+}
+.container{
+    color:white;
+    font-weight: 10px;
+    height: fit-content;
+    display: flex;
+}
+
+.container h4{
+    position: absolute;
+    margin-left: -1vh;
+    top: px;
+}
+
+.secondtext h6{
+    margin-top: -58px;
+    margin-left: 25px;
+}
+
+.search1{
+    margin-left: 100vh;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 5px;
+}
+
+.firstbutton{
+    color: white;
+    background-color: blue;
+    width: 100%;
+    margin-right: 10px; 
+}
+
+.secondbutton{
+    color: white;
+    background-color: blue;
+    width: 100%;
+    margin-right: 10px;
+}
+.table{
+    padding-right: 131vh;
+}
+.register-page .register-bg {
+    height: 700px;
+    opacity: 0.5;
+    z-index: -5;
+    background: linear-gradient(to bottom, transparent 0%, #1f2251 100%);
+    width: 700px;
+    position: relative;
+    right: -600px;
+    top: -355px;
+    border-radius: 20%;
+  }
+  .table border{
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .register-page .square {
+    position: absolute;
+    opacity: 0.5;
+    transition: 0.5s ease-out;
+    border-radius: 2px;
+    background-size: 100%;
+    border-radius: 20%;
+    background: linear-gradient(0deg, #3358f4 0%, #11cdef 100%);
+  }
+  .register-page .square-1 {
+    height: 300px;
+    width: 300px;
+    background-image: url("../Images/square1.png");
+    top: 175px;
+    right: 150px;
+    opacity: 0.5;
+    background: linear-gradient(0deg, #3358f4 0%, #11cdef 100%);
+  }
+  .register-page .square-2 {
+    height: 120px;
+    width: 120px;
+    background-image: url("../Images/square2.png");
+    opacity: 0.6;
+    background: linear-gradient(0deg, #3358f4 0%, #11cdef 100%);
+    top: 310px;
+    right: 390px;
+  }
+  .register-page .square-3 {
+    width: 200px;
+    height: 200px;
+    background-image: url("../Images/square3.png");
+    opacity: 0.5;
+    top: 125px;
+    background: linear-gradient(0deg, #3358f4 0%, #11cdef 100%);
+    right: 150vh;
+    z-index: -5;
+  }
+  .register-page .square-4 {
+    height: 200px;
+    width: 200px;
+    background-image: url("../Images/square4.png");
+    right: -50px;
+    top: 525px;
+    background: linear-gradient(0deg, #3358f4 0%, #11cdef 100%);
+  }
+  .register-page .square-5 {
+    height: 150px;
+    width: 150px;
+    background-image: url("../Images/square5.png");
+    opacity: 0.5;
+    top: 500px;
+    z-index: -5;
+    right: 470px;
+    background: linear-gradient(0deg, #3358f4 0%, #11cdef 100%);
+  }
+  .register-page .square-6 {
+    height: 100px;
+    width: 100px;
+    background-image: url("../Images/square5.png");
+    opacity: 0.9;
+    top: 300px;
+    background: linear-gradient(0deg, #3358f4 0%, #11cdef 100%);
+    right: -200px;
+  }
+  .register-page .square-7 {
+    height: 200px;
+    width: 200px;
+    background-image: url("..//Images/square5.png");
+    left: -10px;
+    top: 100px;
+    opacity: 0.4;
+    background: linear-gradient(0deg, #3358f4 0%, #11cdef 100%);
+  }
+  .register-page .square-8 {
+    height: 100px;
+    width: 100px;
+    background-image: url("../Images/square1.png");
+    left: 300px;
+    top: 400px;
+    opacity: 0.4;
+    background: linear-gradient(0deg, #3358f4 0%, #11cdef 100%);
+  }
+  .register-page {
+    background-image: url("../Images/dots.png");
+    background-size: contain;
+  }
+  .MuiSvgIcon-root:after{
+    color: white;
+  }
+  
+  @media (max-width: 991.98px) {
+    .section:nth-of-type(2) .path {
+      left: 10% !important;
+    }
+    .section:nth-of-type(2) .path2 {
+      left: 20% !important;
+    }
+    .info:first-of-type {
+      padding-top: 10% !important;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .card-login img {
+      width: 70%;
+    }
+    .section:nth-of-type(2) .path,
+    .section:nth-of-type(2) .path2 {
+      left: 0 !important;
+    }
+    .section-coins {
+      margin-top: 0 !important;
+    }
+  }
+  
+  @media (max-width: 575.98px) {
+    .card-login {
+      margin-top: 100px;
+    }
+    .card-login img {
+      width: 350px;
+    }
+    .profile-page .page-header {
+      max-height: unset;
+    }
+    .landing-page .page-header h1 {
+      margin-top: 100px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .info:first-of-type {
+      padding-top: 60%;
+    }
+  }
